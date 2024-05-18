@@ -10,13 +10,13 @@ export function App() {
   return (
     <div>
       <div className={styles.nav}>
-        <NavLink to="/20240511">1st(2024/05/11)</NavLink>
+        <NavLink to="20240511">1st(2024/05/11)</NavLink>
         <a href='https://github.com/MtBlue81/webgl-study' target='_blank' rel="noreferrer">Code</a>
       </div>
       
       <Routes>
         <Route
-          path="/20240511"
+          path="20240511"
           element={<FirstPage/>}
         />
         <Route index element={<Redirect/>}/>
