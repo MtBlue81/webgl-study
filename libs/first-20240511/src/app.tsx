@@ -3,7 +3,7 @@ import styles from './app.module.css';
 
 import { useRenderer } from './useRenderer';
 
-export function App() {
+export function Page() {
   const ref = useRef(null);
   const [currentCameraIndex, setCurrentCameraIndex] = useState(0);
 
@@ -25,5 +25,3 @@ export function App() {
     </div>
   );
 }
-
-export default App;
