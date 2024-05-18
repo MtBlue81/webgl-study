@@ -29,16 +29,15 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: reports
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
-        run: nx run-many -t build
+        run: |
+          npm install
+          npx nx run-many -t build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
