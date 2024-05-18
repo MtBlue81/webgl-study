@@ -3,7 +3,6 @@ import styles from './app.module.css';
 import { Route, Routes, NavLink } from 'react-router-dom';
 
 import {Page as FirstPage} from '@reports/first-20240511'
-import { Redirect } from './redirect';
 
 export function App() {
 
@@ -19,7 +18,6 @@ export function App() {
           path="20240511"
           element={<FirstPage/>}
         />
-        <Route index element={<Redirect/>}/>
       </Routes>
     </div>
   );
