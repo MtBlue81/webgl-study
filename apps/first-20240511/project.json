@@ -1,0 +1,9 @@
+{
+  "name": "first-20240511",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/first-20240511/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project first-20240511 --web",
+  "targets": {}
+}
