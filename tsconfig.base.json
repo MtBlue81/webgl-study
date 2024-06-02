@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@reports/first-20240511": ["libs/first-20240511/src/index.ts"]
+      "@reports/first-20240511": ["libs/first-20240511/src/index.ts"],
+      "@reports/second-20240525": ["libs/second-20240525/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
